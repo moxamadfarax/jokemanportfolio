@@ -39,7 +39,16 @@
 .nav-bar li a:hover{
     color: #fc4848;
 }
-
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .side-text {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
 img{
     border: 5px solid black;
    border-radius: 50px 50px 50px 50px;
@@ -50,4 +59,7 @@ img{
 }
 .img1{
     max-width: 40%;
+}
+.about-me{
+    margin-top: 50px;
 }
