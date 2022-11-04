@@ -59,18 +59,21 @@ body {
   height: 900px;
 }
 .p1 {
-  bottom: 482px;
+  bottom: 90px;
   font-size: 30px;
   position: relative;
   left: 472px;
+  margin-left: 3%;
+  text-align: left;
 }
 img {
   border: 5px solid black;
   border-radius: 50px 50px 50px 50px;
   max-width: 40%;
   max-height: 40%;
-  margin-left: 55%;
+  margin-left: 50%;
   position: relative;
+  text-align: center;
 }
 .img1 {
   max-width: 20%;
@@ -83,25 +86,15 @@ img {
   display: inline;
   left: 20px;
 }
+.h2 {
+  font-size: 70px;
+  color: white;
+  margin-left: 46%;
+}
+
 .projects {
   display: flex;
   justify-content: center;
-}
-.card {
-  background: white;
-  width: 270px;
-  height: 400px;
-  margin: 10px;
-}
-.card-image {
-  background-color: cyan;
-  height: 150px;
-  margin-bottom: 15px;
-}
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
 }
 
 .container {
@@ -112,6 +105,14 @@ img {
   flex-wrap: wrap;
   align-content: center;
   align-items: center;
+}
+.card-1 {
+  background-color: cyan;
+  width: 1300px;
+  height: 700px;
+  margin: 10px;
+  border-radius: 20px;
+  margin-left: 25%;
 }
 .card {
   background-color: cyan;
@@ -126,17 +127,25 @@ img {
   background-size: cover;
   border-radius: 20px 20px 20px 20px;
 }
+.img {
+  background-image: url(images/Calorie.jpg);
+  border: 5px solid black;
+}
 .img-1 {
   background-image: url(images/Kaaba.jpg);
+  border: 5px solid black;
 }
 .img-2 {
   background-image: url(images/Roadtrip.jpg);
+  border: 5px solid black;
 }
 .img-3 {
   background-image: url(images/Stars.jpeg);
+  border: 5px solid black;
 }
 .img-4 {
   background-image: url(images/Weather.jpg);
+  border: 5px solid black;
 }
 .card-h {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -153,4 +162,97 @@ img {
   background-color: rgb(62, 62, 62);
   color: white;
   cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.card-1:hover {
+  background-color: rgb(62, 62, 62);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+main a[href] {
+  text-decoration: none;
+  color: #ffffff;
+}
+section a[href] {
+  text-decoration: none;
+  color: #ffffff;
+}
+footer.footer {
+  text-align: center;
+}
+ul.footer-ul {
+  display: inline-block;
+  text-align: left;
+}
+.footer ul li {
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+  
+}
+
+footer ul li a[href] {
+  text-decoration: 2px underline;
+
+  font-size: 20px;
+  color: white;
+  transition: all 0.3s ease 0s;
+  display: inline-block;
+}
+footer ul li a[href]:hover {
+  color: red;
+}
+.h3 {
+  display: inline-block;
+  font-size: 60px;
+  margin-left: 45%;
+  color: white;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) {
+  /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+  /* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  /* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-device-pixel-ratio: 1.5) {
+  /* Styles */
 }
