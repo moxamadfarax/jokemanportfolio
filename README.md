@@ -1,4 +1,4 @@
-Mohamed's Portdolio
+Mohamed's Portfolio
 
 
 This was an assignment that really pushed me outside of my comfort zone. 
