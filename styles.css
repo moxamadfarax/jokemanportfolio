@@ -128,7 +128,7 @@ img {
   border-radius: 20px 20px 20px 20px;
 }
 .img {
-  background-image: url(images/Calorie.jpg);
+  background-image: url(images/recipe_app.PNG);
   border: 5px solid black;
 }
 .img-1 {
@@ -191,7 +191,6 @@ ul.footer-ul {
   color: white;
   font-size: 20px;
   display: inline-block;
-  
 }
 
 footer ul li a[href] {
